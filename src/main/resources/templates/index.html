@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http//:www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+  
+
+    <div class="container">
+        <header style="background: #bbc0bc; height: 40px;">encabezado</header>
+        <nav style="background: #a08989; height: 40px;">colocar la barra de navegación</nav>
+
+        <div class="main" style="height: 500px;display: flex;">
+            <div class="section main" style="background: rgb(201, 201, 211); width: 20%; margin: 4px;">
+              
+                    <ul class="menu">
+                        <li>                          
+                           <div class="persona"> <i class="fa-solid fa-house-user icono"></i> Citas Medicas</div>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a th:href="@{/web/jpa/mapa}">Sacar Cita</a>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <div>
+                                        <a href="">Cancelar clinica</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="">Cancelar cita</a>
+                                    </div>
+                                </li>
+                            </ul>                       
+                        <li>
+                            <li>
+                                <div class="persona"><i class="fa-sharp fa-solid fa-truck-medical icono"></i>Historia Clinica</div>
+                                 <ul>
+                                     <li>
+                                         <div>
+                                             <a th:href="@{/web/jpa/index}">Cosultar</a>
+                                         </div>
+                                     </li> 
+                                     <li>
+                                         <div>
+                                             <a href="">Reclamar Historia</a>
+                                         </div>
+                                     </li>
+                                     <li>
+                                         <div>
+                                             <a href="">Otros</a>
+                                         </div>
+                                     </li>
+                                 </ul>                            
+                             <li>
+                                <li>
+                                    <div class="persona"><i class="fa-brands fa-suse icono"></i>Pasientes</div>
+                                     <ul>
+                                         <li>
+                                             <div>
+                                                 <a th:href="@{/web/jpa/ventana}">Listado de Pasientes</a>
+                                             </div>
+                                         </li> 
+                                         <li>
+                                             <div>
+                                                 <a href="">Mostrar Citas</a>
+                                             </div>
+                                         </li>
+                                         <li>
+                                             <div>
+                                                 <a href="">otros</a>
+                                             </div>
+                                         </li>
+                                     </ul>                                
+                                 <li>                                    
+                                    <li>
+                                        <div class="persona"><i class="fa-solid fa-hospital-user icono"></i>Archivos Clinicos</div>
+                                         <ul>
+                                             <li>
+                                                 <div>
+                                                     <a href="">Pedir Historia</a>
+                                                 </div>
+                                             </li> 
+                                             <li>
+                                                 <div>
+                                                     <a href="">Consultar</a>
+                                                 </div>
+                                             </li>
+                                             <li>
+                                                 <div>
+                                                     <a href="">Urgencias</a>
+                                                 </div>
+                                             </li>
+                                         </ul>                                    
+                                     <li>     
+                    </ul>
+               
+
+            </div>
+            <div class="aside" style="background: rgb(223, 219, 230); width: 80%; margin: 4px;">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Obcaecati, autem! Ducimus sequi laboriosam voluptatem sit
+                ex nostrum aperiam. In voluptas quos expedita quisquam eius,
+                praesentium non dicta modi et fuga.
+            </div>
+        </div>
+        <div class="footer">
+            <samp style="color: aliceblue;">aqui va el footer</samp>
+        </div>
+    </div>
+    </div>
+
+    
+   <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --> 
+
+    
+    <script src="/js/icon.js"></script>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+<!-- 
+    <link rel="stylesheet" href="/js/jquery-ui.css">
+
+    <script src="/js/jquery-ui-1.13.2/jquery-ui.min.js"></script> -->
+
+
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
